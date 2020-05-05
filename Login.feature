@@ -1,7 +1,7 @@
 Feature: Login into 9gag account
 		 Existing 9gag user should be able to login into an account by using correct credentails
 
-Scenario Outline: Login into account with invalid user data
+Scenario Outline: Login into account with user data
 
 	Given 	User navigates to 9gag login website
 	When 	User closes the pop up message
